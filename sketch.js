@@ -21,8 +21,8 @@ function setup(){
     jerry = createSprite(200,620,50,50)
     jerry.addAnimation("Still",jerry_img1);
     jerry.scale = 0.17
-    Tom.debug = true 
-    jerry.debug  = true
+    Tom.debug = false 
+    jerry.debug  = false
     Tom.setCollider("circle",0,0,300);
     jerry.setCollider("circle",0,0,300);
 }
